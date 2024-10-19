@@ -1,1 +1,4 @@
 git checkout -b ci-tests
+git add .github/workflows/ci-workflow.yml
+git commit -m "Add CI workflow for building Android app"
+git push origin ci-tests
